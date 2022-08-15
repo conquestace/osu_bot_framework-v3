@@ -15,6 +15,7 @@ class KingOfTheHill:
         channel.set_command("!update", channel.common_commands.update_beatmap, "Updates current beatmap")
         channel.set_command("!skip", self.skip, "when you are the host, transfers host to the next highest scoring player")
         channel.set_command("!fight", channel.common_commands.fight, "Fight another user! Victories stack up.")
+        channel.set_command("!discord", channel.common_commands.discord, "Discord link.")
         channel.set_command("R̲e̲f̲e̲r̲e̲e̲ C̲o̲m̲m̲a̲n̲d̲s̲", "")
         channel.set_command("*implement", channel.common_commands.implement_logic_profile, "Implements a logic profile")
         channel.set_command("*logic_profiles", channel.common_commands.get_logic_profiles, "Shows available logic profiles")
