@@ -204,7 +204,7 @@ class Channel:
         if self.is_game():
             self.set_custom_config("")
 
-    def clear_commands(self):
+   def clear_commands(self):
         if self.is_game():
             self._commands = {
                 "!info": {
@@ -214,11 +214,7 @@ class Channel:
             "!config": {
                 "response": self.common_commands.config_link,
                 "description": "Returns a link to the game rom configuration page"}
-            },
-            "!discord": {
-            "response": "Come join the [https://www.conquestace.com/osutraining.html  osu!Training discord]",
-            "description": "discord link"
-            },
+            }
         else:
             self._commands = {}
 
