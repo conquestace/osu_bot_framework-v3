@@ -658,3 +658,6 @@ class CommonCommands:
             
     def discord(self, message):
         self.channel.send_message("Come join the [https://www.conquestace.com/osutraining.html  osu!Training discord]")           
+   
+    def twitch(self,message):
+        self.channel.send_message("Hey, feel free to visit: [https://twitch.tv/conquestace/ my Twitch channel]")
