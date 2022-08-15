@@ -214,7 +214,11 @@ class Channel:
             "!config": {
                 "response": self.common_commands.config_link,
                 "description": "Returns a link to the game rom configuration page"}
-            }
+            },
+            "!discord": {
+            "response": "Come join the [https://www.conquestace.com/osutraining.html  osu!Training discord]",
+            "description": "discord link"
+            },
         else:
             self._commands = {}
 
