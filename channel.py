@@ -204,7 +204,7 @@ class Channel:
         if self.is_game():
             self.set_custom_config("")
 
-   def clear_commands(self):
+    def clear_commands(self):
         if self.is_game():
             self._commands = {
                 "!info": {
