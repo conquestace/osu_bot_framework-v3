@@ -656,5 +656,5 @@ class CommonCommands:
                 self.fights[message["username"]] = 0
             self.channel.send_message(message["username"] + " has defeated " + str(self.fights[message["username"]]) + " opponents.")
             
-     def discord(self, message):
-            self.channel.send_message("Come join the [https://www.conquestace.com/osutraining.html  osu!Training discord]")           
+    def discord(self, message):
+        self.channel.send_message("Come join the [https://www.conquestace.com/osutraining.html  osu!Training discord]")           
